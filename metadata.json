@@ -1,0 +1,6 @@
+{
+  "name": "SubnetCalc",
+  "description": "Calculadora profesional de subredes IPv4 para Clases A, B y C con soporte moderno y académico, cálculo por hosts o máscara y tabla interactiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

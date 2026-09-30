@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Router Hub -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M46,42h16c2.2,0 4,1.8 4,4v16c0,2.2 -1.8,4 -4,4h-16c-2.2,0 -4,-1.8 -4,-4v-16c0,-2.2 1.8,-4 4,-4z" />
+    
+    <!-- Router Core Inner Detail -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M50,47h8c1.1,0 2,0.9 2,2v10c0,1.1 -0.9,2 -2,2h-8c-1.1,0 -2,-0.9 -2,-2v-10c0,-1.1 0.9,-2 2,-2z" />
+
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M53,51h2v6h-2z M51,53h6v2h-6z" />
+
+    <!-- Connecting Network Bus Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,42v-11 M54,66v11 M42,54h-11 M66,54h11" />
+
+    <!-- Subnet Nodes / Octet Endpoints -->
+    <!-- Top Node -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M54,25m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,25m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Bottom Node -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M54,83m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,83m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Left Node -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M25,54m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,54m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Right Node -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M83,54m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M83,54m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Diagonal Accent Dots for Subnet Addressing -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M33,33m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M75,33m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M33,75m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M75,75m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>
